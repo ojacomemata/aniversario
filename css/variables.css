@@ -1,0 +1,37 @@
+:root {
+
+    /* Colores */
+
+    --bg-main: #fffaf8;
+    --bg-secondary: #f7f3ef;
+
+    --text-primary: #2b2b2b;
+    --text-secondary: #6d6d6d;
+
+    --accent-pink: #e9c6cf;
+    --accent-gold: #c7a46d;
+    --accent-green: #b9c7b2;
+
+    --border-soft: rgba(0,0,0,0.08);
+
+    /* Tipografías */
+
+    --font-title: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+    --font-handwritten: "Caveat", cursive;
+
+    /* Espaciados */
+
+    --section-padding: 8rem;
+    --content-width: 1200px;
+
+    /* Sombras */
+
+    --shadow-soft:
+        0 8px 30px rgba(0,0,0,0.08);
+
+    /* Transiciones */
+
+    --transition:
+        0.3s ease;
+}

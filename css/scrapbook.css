@@ -1,0 +1,51 @@
+.polaroid {
+
+    background: white;
+
+    padding: 1rem 1rem 2rem;
+
+    box-shadow: var(--shadow-soft);
+
+    transform: rotate(-2deg);
+
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    transition: var(--transition);
+}
+
+.polaroid:hover {
+
+    transform: translateY(-8px);
+}
+
+.polaroid img {
+
+    aspect-ratio: 4 / 5;
+
+    object-fit: cover;
+}
+
+.polaroid p {
+
+    margin-top: 1rem;
+
+    text-align: center;
+
+    font-family: var(--font-handwritten);
+
+    font-size: 1.4rem;
+
+    color: var(--text-primary);
+}
+
+.rotate-left {
+
+    transform: rotate(-2deg);
+}
+
+.rotate-right {
+
+    transform: rotate(2deg);
+}
