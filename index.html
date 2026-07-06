@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="./css/animations.css">
 
     <meta name="color-scheme" content="light">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css"
+    />
+
 </head>
 
 <body>
@@ -148,18 +154,25 @@
 
                 <div class="timeline-photo">
 
-                    <div class="polaroid rotate-left">
+                    <a
+                        class="polaroid rotate-left"
+
+                        href="./assets/photos/timeline/2023.jpg"
+
+                        data-pswp-width="4320"
+
+                        data-pswp-height="3240"
+
+                    >
 
                         <img
                             src="./assets/photos/timeline/2023.jpg"
                             alt="2023"
                         >
 
-                        <p>
-                            El inicio de todo ❤️
-                        </p>
+                        <p>El inicio ❤️</p>
 
-                    </div>
+                    </a>
 
                 </div>
 
@@ -251,9 +264,7 @@
         </section>
 
 
-        <section
-            class="timeline-section"
-            id="year-2026"
+        <section class="timeline-section" id="year-2026"
         >
 
             <div class="container">
@@ -337,6 +348,7 @@
     <script src="./js/main.js"></script>
     <script src="./js/timeline.js"></script>
     <script src="./js/gallery.js"></script>
+    <script type="module" src="./js/album.js"></script>
 
 </body>
 </html>

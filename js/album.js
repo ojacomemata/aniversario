@@ -1,1 +1,15 @@
-console.log("📸 Album loaded");
+import PhotoSwipeLightbox
+from "https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js";
+
+const lightbox = new PhotoSwipeLightbox({
+
+    gallery: "#album-gallery",
+
+    children: "a",
+
+    pswpModule: () =>
+        import("https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js")
+
+});
+
+lightbox.init();
