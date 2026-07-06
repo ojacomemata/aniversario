@@ -312,6 +312,17 @@
     align-items: center;
 }
 
+.timeline-wrapper {
+
+    max-width: 1300px;
+
+    margin: 0 auto;
+
+    padding-left: 120px;
+
+    padding-right: 80px;
+}
+
 .next-section {
 
     display: inline-block;
