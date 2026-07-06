@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Felices 3 años</title>
+    <title>Aniversario III</title>
 
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,16 +47,15 @@
         <div class="hero-content">
 
             <p class="hero-date">
-                7 Julio 2023 ✦ 7 Julio 2026
+                6 Julio 2023 ✦ 6 Julio 2026
             </p>
 
             <h1>
-                3 años contigo
+                3 años de amor
             </h1>
 
             <p class="hero-subtitle">
-                Cada recuerdo, cada aventura y cada pequeño instante
-                han construido la historia más bonita de mi vida.
+                Un album de nuestra historia y una carta de mi amor.
             </p>
 
             <a href="#intro" class="scroll-indicator">
@@ -79,26 +78,25 @@
             <div class="intro-text">
 
                 <span class="section-tag">
-                    Capítulo I
+                    Introducción
                 </span>
 
                 <h2 class="section-title">
-                    Nuestra historia
+                    Michelle y Octavio
                 </h2>
 
                 <p>
-                    Todo comenzó con una conversación que parecía una más,
-                    pero que terminaría cambiando por completo nuestras vidas.
+                    Desde que nos conocimos en secundaria, ambos sabiamos que habia algo especial en la mirada del otro.
+                    Interes, respeto, admiracion. Despues, fue amor.
                 </p>
 
                 <p>
-                    Han pasado tres años llenos de aventuras, fotografías,
-                    viajes, risas, sueños y miles de pequeños momentos que hoy
-                    forman nuestro lugar favorito: nosotros.
+                    Hasta el dia de hoy, ese sentir continua. Amplificado, es mas fuerte y profundo en nuestras almas. 
+                    Hoy celebramos ese vinculo.
                 </p>
 
                 <p class="handwritten-note">
-                    "Gracias por cada día juntos ❤️"
+                    "Eres mi amistad, cariño y amor mas grande"
                 </p>
 
             </div>
@@ -108,12 +106,13 @@
                 <div class="polaroid">
 
                     <img
-                        src="./assets/photos/intro/first-memory.jpg"
+                        src="./assets/photos/intro/intro.jpg"
+                        data-full="./assets/photos/intro/intro.jpg"
                         alt="Nuestro primer recuerdo"
                     >
 
                     <p>
-                        Uno de mis recuerdos favoritos ✦
+                        El primer parque que recorrimos juntos
                     </p>
 
                 </div>
@@ -132,12 +131,10 @@
 
                 <div class="timeline-text">
 
-                    <h2 class="section-title">2023</h2>
+                    <h2 class="section-title">Jul - 2023</h2>
 
                     <p>
-                        Aquí comenzaron nuestras primeras aventuras,
-                        los nervios, las risas y los recuerdos que
-                        terminarían cambiando nuestras vidas.
+                        Todo comenzó con una platica inocente, parques de aura intima, y nuestra insignia, lluvia estacional.
                     </p>
 
                     <a href="#year-2024" class="next-section">
@@ -151,12 +148,13 @@
                     <div class="polaroid rotate-left">
 
                         <img
-                            src="./assets/photos/timeline/2023.jpg"
+                            src="./assets/photos/timeline/foto1.jpg"
+                            data-full="./assets/photos/timeline/foto1.jpg"
                             alt="2023"
                         >
 
                         <p>
-                            El inicio de todo ❤️
+                            Nos empapamos ese dia.
                         </p>
 
                     </div>
@@ -193,6 +191,7 @@
 
                         <img
                             src="./assets/photos/timeline/2024.jpg"
+                            data-full="./assets/photos/timeline/2024.jpg"
                             alt="2024"
                         >
 
@@ -235,6 +234,7 @@
 
                         <img
                             src="./assets/photos/timeline/2025.jpg"
+                            data-full="./assets/photos/timeline/2025.jpg"
                             alt="2025"
                         >
 
@@ -315,28 +315,34 @@
                     📸 Ver nuestro álbum
                 </a>
 
-                <a
-                    class="outro-button secondary"
-                    href="./letter.html"
-                >
-                    💌 Leer mi carta
-                </a>
-
             </div>
 
         </div>
 
     </section>
 
-    <!-- <section id="album"></section>
+    <div id="viewer">
 
-    <section id="letter"></section> -->
+        <div class="viewer-backdrop"></div>
+
+        <img
+            id="viewer-image"
+            src=""
+            alt=""
+        >
+
+        <button id="viewer-close">
+            ✕
+        </button>
+
+    </div>
 
     <footer></footer>
 
     <script src="./js/main.js"></script>
     <script src="./js/timeline.js"></script>
-    <script src="./js/gallery.js"></script>
+    <script src="./js/viewer.js"></script>
+
 
 </body>
 </html>
